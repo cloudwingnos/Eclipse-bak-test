@@ -305,22 +305,22 @@ public class TestMain {
 	}
 	
 }
-//	private static void cacheData(Set<Long> keySet, GridModelResponse response) {
-//		cacheData(keySet, response.getAclnendinfoList());
-//		cacheData(keySet, response.getBreakinfoList());
-//		cacheData(keySet, response.getDisinfoList());
-//		cacheData(keySet, response.getCpinfoList());
-//		cacheData(keySet, response.getCvtinfoList());
-//		cacheData(keySet, response.getDcdisinfoList());
-//		cacheData(keySet, response.getDclineendinfoList());
-//		cacheData(keySet, response.getDisbrkinfoList());
-//		cacheData(keySet, response.getElcbusinfoList());
-//		cacheData(keySet, response.getLoadinfoList());
-//		cacheData(keySet, response.getScpinfoList());
-//		cacheData(keySet, response.getUnitinfoList());
-//		cacheData(keySet, response.getXfwdinfoList());
-//		
-//	}
+	private static void cacheData(Set<Long> keySet, GridModelResponse response) {
+		cacheData(keySet, response.getAclnendinfoList());
+		cacheData(keySet, response.getBreakinfoList());
+		cacheData(keySet, response.getDisinfoList());
+		cacheData(keySet, response.getCpinfoList());
+		cacheData(keySet, response.getCvtinfoList());
+		cacheData(keySet, response.getDcdisinfoList());
+		cacheData(keySet, response.getDclineendinfoList());
+		cacheData(keySet, response.getDisbrkinfoList());
+		cacheData(keySet, response.getElcbusinfoList());
+		cacheData(keySet, response.getLoadinfoList());
+		cacheData(keySet, response.getScpinfoList());
+		cacheData(keySet, response.getUnitinfoList());
+		cacheData(keySet, response.getXfwdinfoList());
+		
+	}
 //
 //
 //	private static void cacheData(Set<Long> keySet, List<? extends GeneratedMessage> infoList) {
